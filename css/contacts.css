@@ -1,0 +1,127 @@
+.main {
+    margin: 30px 0 0 0;
+    padding:0;
+    font-size: 20px;
+}
+
+.background-contact {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 82%;
+    background-color: #C0C0C0;
+    border-radius: 15px;
+}
+
+/*Оформление карточки с контактом*/
+.contact {
+    margin: 0;
+    padding: 0 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    background-color: #a9a9a9;
+    border-radius: 15px; 
+    transition: 0.5s;
+}
+
+.contact:hover {
+    width: 38%;
+    background-color: #dcdcdc;
+}
+
+.contact img {
+    margin-right: 10px;
+    max-width: 50px;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #2f2f2f;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+.contact p a:hover {
+    letter-spacing: 0.3em;
+}
+/*Оформление карточки с контактом*/
+
+/*Оформление карточки с qr*/
+.qr {
+    margin: 0;
+    margin-bottom: 30px;
+    padding:0;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a9a9a9;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.qr:hover {
+    width: 38%;
+    background-color: #dcdcdc;
+}
+
+.qr img {
+    margin-top: 30px;
+    max-width: 80%;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.qr:hover > img {
+    width: 83%;
+    border: 1px solid #2f2f2f;
+}
+
+.qr p {
+    margin: 15px;
+}
+/*Оформление карточки с qr*/
+
+/*Оформление callback*/
+.callback {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.callback p {
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.callback div {
+    margin:0 auto 15px;
+    padding: 15px;
+    width: 35%;
+    background-color: #a9a9a9;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.callback div:hover {
+    width: 40%;
+    background-color: #dcdcdc;
+}
+
+.callback div a {
+    text-decoration: none;
+    color: #2f2f2f;
+    transition: 0.5s;
+}
+
+.callback div a:hover {
+    letter-spacing: 0.3em;
+}
+/*Оформление callback*/
